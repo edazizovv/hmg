@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hmg"
+version = "0.0.1"
+description = "Simple loader for MOEX"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hmg"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
